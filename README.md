@@ -8,9 +8,9 @@
 
 ```js
 class Tree {
-	constructor(type) {
-		this.type = type;
-	}
+  constructor(type) {
+    this.type = type;
+  }
 }
 ```
 
@@ -22,10 +22,10 @@ class Tree {
 
 ```js
 class House {
-	constructor(address, owner) {
-		this.address = address;
-		this.owner = owner;
-	}
+  constructor(address, owner) {
+    this.address = address;
+    this.owner = owner;
+  }
 }
 
 let house1 = new House('22 Elm St', 'Dr. Howser');
